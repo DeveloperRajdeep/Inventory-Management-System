@@ -1,0 +1,27 @@
+<Meta>
+<Info>
+	<Title></Title>
+	<Desc></Desc>
+</Info>
+<Scenes>
+	<Ground>
+		<Background>
+			<Item position="Scale to Fit">
+				<URL>Aurora.swf</URL>
+			</Item>					
+		</Background>
+		<Foreground2>
+			<Item position="Bottom Left">
+				<URL>88.swf</URL>
+			</Item>
+			<Item position="Scale to Fit">
+				<URL>katong2.swf</URL>
+			</Item>
+			<Item position="Bottom Left">
+				<URL>labahua.swf</URL>
+			</Item>
+		</Foreground2>
+	</Ground>
+</Scenes>
+
+</Meta>

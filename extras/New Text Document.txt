@@ -1,0 +1,26 @@
+--to show the confirm message in same page the codes are----(first page login.php)
+
+<div id="apDiv13">
+        <?php
+		if(isset($_GET['id']))
+		{
+			
+		echo $_GET["id"];
+		}
+        ?>
+</div>
+
+
+--to show the confirm message in same page the codes are----(second page dologin.php)
+
+{
+	header("location:login.php?id=succesfully registered");
+
+}
+	else
+
+	{
+
+  header("location:login.php?id=registration failed");
+
+}
